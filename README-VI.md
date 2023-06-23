@@ -12,29 +12,28 @@ With Tumy, developers can expect a powerful and user-friendly programming enviro
 
 # How to use
 
-Here are some examples of the syntax in the Tumy programming language.
+Dưới đây là một số ví dụ về cú pháp của ngôn ngữ Tumy
 
-### 1. Variable declaration:
+### 1. Khai báo biến:
 
 ```cs
-int x = 10
+int32 x = 10
 string &y = "Hello world!"
 ```
 
-### 2. Conditional structures:
+### 2. Cấu trúc điều khiển:
 
 ```cs
 if condition:
-    // Code to execute if condition is true
+    // Thực hiện khi điều kiện đúng
 else:
-    // Code to execute if condition is false
+    // Thực hiện khi điều kiện sai
 
 for item in iterable:
-    // Iterate over each item in the iterable
+    // Lặp qua từng phần tử trong iterable
 
 while condition:
-    // Repeat until the condition is false
-
+    // Lặp cho đến khi điều kiện sai
 ```
 
 Example:
@@ -52,7 +51,7 @@ else:
 
 ```
 
-### 3. Functions:
+### 3. Hàm:
 
 ```cs
 
@@ -107,23 +106,22 @@ import math
 print(math.sqrt(16))  # Kết quả: 4.0
 ```
 
-### 6. The main execution function:
+### 6. Hàm thực thi chính **main()**:
 
 ```cs
 void main():
-    // Main tasks and logic of the program
+    // Các tác vụ và logic chính của chương trình Tumy
 
-main()  // Call the main() function to start the program execution
-
+main()  // Gọi hàm main() để bắt đầu thực thi chương trình
 ```
 
 ### 7. Closures:
 
 ```cs
 type closure_function(param1, param2) {
-    // Closure execution statements
-    // Can access variables from the outer scope
-    // Use param1, param2, and other variables
+    // Các lệnh thực thi của closures
+    // Có thể truy cập các biến từ phạm vi bên ngoài
+    // Sử dụng param1, param2 và các biến khác
 }
 ```
 
@@ -131,9 +129,9 @@ type closure_function(param1, param2) {
 int add(a, b):
     return a + b
 
-int result = add(3, 5)
-print(result) // Output: 8
 
+int result = add(3, 5)
+print(result) // Kết quả: 8
 
 ```
 
@@ -147,5 +145,5 @@ int closure():
     return inner_function
 
 int my_closure = closure()
-int result = my_closure(5)  // Output: 15
+int result = my_closure(5)  # Kết quả: 15
 ```
