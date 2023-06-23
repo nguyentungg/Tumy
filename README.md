@@ -99,7 +99,7 @@ void main():
 
 ```
 
-### 5. Import thư viện:
+### 5. Importing libraries:
 
 ```cs
 import math
