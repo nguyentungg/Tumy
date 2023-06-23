@@ -120,32 +120,14 @@ main()  // Call the main() function to start the program execution
 ### 7. Closures:
 
 ```cs
-type closure_function(param1, param2) {
-    // Closure execution statements
-    // Can access variables from the outer scope
-    // Use param1, param2, and other variables
-}
-```
+let multiplier = let (factor) = {
+    return let (x) = {
+        return factor * x;
+    };
+};
 
-```cs
-int add(a, b):
-    return a + b
+let multiplyByTwo = multiplier(2);
+let result = multiplyByTwo(5);
+print(result);  // Kết quả: 10
 
-int result = add(3, 5)
-print(result) // Output: 8
-
-
-```
-
-```cs
-int closure():
-    int x = 10
-
-    int inner_function(int y):
-        return x + y
-
-    return inner_function
-
-int my_closure = closure()
-int result = my_closure(5)  // Output: 15
 ```
