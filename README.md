@@ -1,14 +1,23 @@
 # Tumy is a new programming language that combines the best of Python, C++, and Rust
 
-## About
+## Introduction
 
-Tumy is a cutting-edge programming language designed to bring together the simplicity of Python, the performance optimizations of C++, and the memory safety features of Rust. The primary goal of Tumy is to provide developers with a language that is both easy to read and write, while delivering high-performance and memory safety.
+Tumy is an innovative programming language that combines the simplicity of Python, the performance optimizations of compiled languages like C++, the memory safety features inspired by Rust, and the analytical power of R. With Tumy, developers can enjoy a language that is both easy to read and write, while delivering high-performance, memory safety, and data analysis capabilities.
 
-Tumy adopts Python's clean and readable syntax, making it approachable for developers of all experience levels. By leveraging the performance optimizations of C++, Tumy enables developers to write efficient and speedy code. Furthermore, inspired by Rust's memory safety model, Tumy incorporates features like ownership and borrowing to ensure secure memory management and prevent common memory-related errors.
+Tumy adopts Python's clean and readable syntax, making it accessible to developers of all skill levels. However, unlike traditional interpreted languages, Tumy introduces a compilation step to enhance performance. The code is initially interpreted, and then the commands are stored as precompiled data, allowing for faster execution times. If any changes are made to the code, the affected parts are re-interpreted and recompiled, ensuring up-to-date performance optimizations.
 
-Under the hood, Tumy utilizes the powerful parsing capabilities of PLY (Python Lex-Yacc) to define its formal grammar and parsing rules. This allows for precise and reliable parsing of source code, aiding in the creation of robust and error-free applications.
+Taking inspiration from Rust's memory safety model, Tumy incorporates features like ownership and borrowing, ensuring secure memory management and eliminating common memory-related errors. This allows developers to write code with confidence, knowing that memory safety is enforced by the language itself.
 
-With Tumy, developers can expect a powerful and user-friendly programming environment. By combining the strengths of Python, C++, and Rust, Tumy opens up new possibilities for software development across various domains.
+In addition, Tumy leverages the performance optimizations of C++. By utilizing the power of C++ under the hood, Tumy enables developers to write efficient and high-performance code. The ability to leverage C++ optimizations provides Tumy with the speed and efficiency needed for computationally intensive tasks and resource-constrained environments.
+
+Moreover, Tumy integrates the analytical capabilities of R, allowing developers to seamlessly perform data analysis and statistical computations. The combination of C++ performance optimizations and R's analytical power makes Tumy a versatile language for both general-purpose programming and data analysis tasks.
+
+Internally, Tumy utilizes the robust parsing capabilities of PLY (Python Lex-Yacc) to define its formal grammar and parsing rules. This ensures accurate and reliable parsing of the source code, enabling the creation of robust and error-free applications.
+
+With Tumy, developers can enjoy a powerful and user-friendly programming experience, combining the strengths of Python, C++'s performance optimizations, Rust's memory safety, and R's analytical power. Tumy opens up new possibilities for software development and data analysis, providing a comprehensive solution for various domains.
+
+# Authors
+- Tung Nguyen (Ryan - Acala)
 
 # How to use
 
