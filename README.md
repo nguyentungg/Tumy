@@ -18,6 +18,7 @@ With Tumy, developers can enjoy a powerful and user-friendly programming experie
 
 # Authors
 - Tung Nguyen (Ryan - Acala)
+- Marc Fruchtman
 
 # How to use
 
